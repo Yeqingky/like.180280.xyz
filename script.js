@@ -37,11 +37,11 @@ noButton.addEventListener("click", function () {
     }
 
     // 图片变化（前 5 次变化）
-    if (clickCount === 1) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/8e2317bb70ec0beeb30f4522cac1e915.png"; // 震惊
-    if (clickCount === 2) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/85e54dee5f519ff1a2b8aa7e370db816.png";   // 思考
-    if (clickCount === 3) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/74c1e4c813a3fc129c9bea588d00c4d7.png";   // 生气
-    if (clickCount === 4) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/61cff1367160c5009001e06a0d0e089e.png";  // 哭
-    if (clickCount >= 5) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/61cff1367160c5009001e06a0d0e089e.png";  // 之后一直是哭
+    if (clickCount === 1) mainImage.src = "https://image.180280.xyz/i/2025/02/19/67b5844a70b02.webp"; // 震惊
+    if (clickCount === 2) mainImage.src = "https://image.180280.xyz/i/2025/02/19/67b58476da28e.webp";   // 思考
+    if (clickCount === 3) mainImage.src = "https://image.180280.xyz/i/2025/02/19/67b5848d49606.webp";   // 生气
+    if (clickCount === 4) mainImage.src = "https://image.180280.xyz/i/2025/02/19/67b584a732754.webp";  // 哭
+    if (clickCount >= 5) mainImage.src = "https://image.180280.xyz/i/2025/02/19/67b584a732754.webp";  // 之后一直是哭
 
 });
 
@@ -50,7 +50,7 @@ yesButton.addEventListener("click", function () {
     document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text">!!!喜欢你!! ( >᎑<)♡︎ᐝ</h1>
-            <img src="https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/4f8cf95a226175ba3451ee0080a39ad7.png" alt="拥抱" class="yes-image">
+            <img src="https://image.180280.xyz/i/2025/02/19/67b584cdf2aa6.webp" alt="拥抱" class="yes-image">
         </div>
     `;
 
